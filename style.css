@@ -27,6 +27,13 @@ body {
     padding-top: 1rem;
 }
 
+.meme-section {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .meme-item {
     width: fit-content;
     height: fit-content;
@@ -35,10 +42,15 @@ body {
     border-radius: 10px;
 }
 
-.meme-section {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
+.meme-item p {
+    position: absolute;
+    float: none;
+    font-size: 250%;
+    text-align: center;
+
 }
+
+
+
+
 
