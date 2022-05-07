@@ -1,0 +1,26 @@
+:root {
+    --primaryColor: rgb(255, 255, 255);
+    --secondaryColor: rgb(52, 44, 88);
+    --darkerColor: rgb(10, 10, 36);
+    margin: 5rem 5rem
+}
+
+body {
+    background-size: cover;
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+
+.form-group {
+    padding: 0.5rem 10rem;
+    color: var(--darkerColor);
+}
+
+.form-control {
+    font-style: italic;
+    font-size: sm;
+}
+
+.submit-btn {
+    padding-top: 1rem;
+}
