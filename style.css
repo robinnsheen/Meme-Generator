@@ -35,3 +35,10 @@ body {
     border-radius: 10px;
 }
 
+.meme-section {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
