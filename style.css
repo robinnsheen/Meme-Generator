@@ -1,26 +1,37 @@
 :root {
     --primaryColor: rgb(255, 255, 255);
-    --secondaryColor: rgb(52, 44, 88);
+    --secondaryColor: rgb(197, 196, 201);
     --darkerColor: rgb(10, 10, 36);
-    margin: 5rem 5rem
+    margin: 3rem 2rem
 }
 
 body {
     background-size: cover;
-    background-color: var(--primaryColor);
-    color: var(--secondaryColor);
 }
 
 .form-group {
-    padding: 0.5rem 10rem;
-    color: var(--darkerColor);
+    padding: 0.5rem 0rem;
+    width: 30rem;
 }
 
 .form-control {
     font-style: italic;
-    font-size: sm;
+}
+
+.meme-form {
+    padding: 1rem 1rem;
+    margin: 0rem 3rem 3rem 3rem;
 }
 
 .submit-btn {
     padding-top: 1rem;
 }
+
+.meme-item {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+}
+
