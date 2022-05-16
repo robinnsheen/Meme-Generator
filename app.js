@@ -28,6 +28,10 @@ memeSection.addEventListener("click", function(e) {
   if (e.target.className === "overlay") {
     e.target.parentElement.remove();
   }
+
+  if (e.target.className === "remove-btn") {
+    e.target.parentElement.parentElement.remove();
+  }
 });
 
 function makeMeme(urlInput, upperTextInput, lowerTextInput) {
